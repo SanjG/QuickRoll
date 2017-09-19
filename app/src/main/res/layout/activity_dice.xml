@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="0dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    tools:context="com.example.sanjana.quickdice.DiceActivity"
+    android:weightSum="1"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/dice6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/d6" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_marginTop="50dp"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:text="ROLL" />
+</android.widget.LinearLayout>
